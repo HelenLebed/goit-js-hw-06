@@ -17,3 +17,4 @@ function printCategory(item) {
     const listItems = itemChildren[1].children.length;
     console.log("Elements:", listItems);
 }
+console.log(document.querySelector("ul"));
