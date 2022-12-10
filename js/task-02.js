@@ -18,7 +18,7 @@ const result = ingredients.map((element) => {
 
 list.append(...result);
 
-// console.log(list);
+// Here we're doing alternative variant;
 // const list = document.querySelector("#ingredients");
 // const arr = [];
 

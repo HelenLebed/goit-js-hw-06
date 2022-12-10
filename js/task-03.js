@@ -13,10 +13,8 @@ const images = [
     },
 ];
 
-// находим элемент <ul> по классу .gallery
 const list = document.querySelector(".gallery");
 
-// формируем строку элементов списка с вложенными картинками
 const result = images
     .map(
         (obj) =>
@@ -24,7 +22,6 @@ const result = images
     )
     .join("");
 
-// добавили в ul li
 list.insertAdjacentHTML("afterbegin", result);
 list.style.display = "flex";
 list.style.flexDirection = "column";
